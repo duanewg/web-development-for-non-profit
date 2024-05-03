@@ -3,29 +3,44 @@
 <!-- <img src="assets/logo.svg" alt="Logo Text There" /> -->
 </p>
 
-# Project Title
-"[Project Name]" involves [briefly describe the main objective or purpose of the project] utilizing [mention any specific tools, technologies, or platforms]. This project aims to [mention the primary goal or outcome] to [highlight the intended impact or benefit].
+# Non Profit Website Development  
+Designed, developed, and deployed a static website for a non profit organization that did not have a web presence.  HTML, CSS, & Javascript were used for development and the website was hosted in AWS.  The website provided users with an organization overview, services offered, upcoming events, contacts, and program partners.
+
 
 ## Environments and Technologies Used
 
-- Item 1
-- Item 2
-- Item 3
+- HTML
+- CSS
+- JavaScript
+- Visual Studio Code
+- Amazon S3
+- Amazon CloudFront
+
 
 ## Operating Systems Used
 
-- Operating System Name
+- Windows
+- Amazon Web Services
 
 ## High-Level Deployment and Configuration Steps
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
-- Step 5
+#### S3
+- Create a bucket
+- Enable static website hosting
+- Edit Block Public Access settings
+- Add a bucket policy that makes your bucket content publicly available
+- Configure an index document
+- Configure error documents
 
-<h2>Architecture Diagram</h2>
+#### CloudFront
+- Create Distribution
+- Configure Origin using S3 bucket endpoint
+- Set Viewer Protocol Policy for HTTP/HTTPS
+- Configure Alternate Domain Name (CNAME)
+- Choose Custom SSL Certificate
+
+<h2>Screenshot</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="assets/nonprofit-web-screenshot.png" height="80%" width="80%" alt="Screenshot"/>
 </p>
