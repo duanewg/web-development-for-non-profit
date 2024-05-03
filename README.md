@@ -1,6 +1,6 @@
 <p align="center">
-<img src="https://place-hold.it/600x200" alt="Place Holder Image"/>
-<!-- <img src="assets/logo.svg" alt="Logo Text There" /> -->
+<!--img src="https://place-hold.it/600x200" alt="Place Holder Image"/-->
+<img src="assets/aws.jpeg" alt="Amazon Web Services" />
 </p>
 
 # Non Profit Website Development  
@@ -15,12 +15,6 @@ Designed, developed, and deployed a static website for a non profit organization
 - Visual Studio Code
 - Amazon S3
 - Amazon CloudFront
-
-
-## Operating Systems Used
-
-- Windows
-- Amazon Web Services
 
 ## High-Level Deployment and Configuration Steps
 
