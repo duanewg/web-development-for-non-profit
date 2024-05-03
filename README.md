@@ -26,6 +26,13 @@ Designed, developed, and deployed a static website for a non profit organization
 - Configure an index document
 - Configure error documents
 
+#### Certificate Manager
+- Request a certificate
+- Enter domain name
+- Set validation method to DNS
+- Set key algorithim
+- Validate domain ownership
+
 #### CloudFront
 - Create Distribution
 - Configure Origin using S3 bucket endpoint
